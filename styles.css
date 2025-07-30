@@ -662,6 +662,9 @@ section {
 .footer__links a:hover {
   color: var(--secondary-color);
 }
+.footer__col a {
+  color: #ffffff;
+}
 
 /* Модальное окно */
 .modal {
