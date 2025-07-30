@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razor&Craft | Мужской барбершоп премиум-класса</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header  class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">Razor&<span>Craft</span></a>
+                <nav class="nav">
+                    <a href="#services" class="nav__link">Услуги</a>
+                    <a href="#masters" class="nav__link">Барберы</a>
+                    <a href="#gallery" class="nav__link">Галерея</a>
+                    <a href="#contacts" class="nav__link">Контакты</a>
+                </nav>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <a href="#booking" class="btn btn--primary">Записаться</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Искусство мужского стиля</h1>
+                    <p class="hero__subtitle">Премиальный уход и традиции барберинга</p>
+                    <a href="#booking" class="btn btn--secondary">Забронировать время</a>
+                </div>
+            </div>
+            <div class="hero__overlay"></div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="container">
+                <h2 class="section__title">Наши услуги</h2>
+                <div class="services__grid">
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <i class="fas fa-cut"></i>
+                        </div>
+                        <h3 class="service-card__title">Мужская стрижка</h3>
+                        <p class="service-card__price">от 250 000 sum</p>
+                        <p class="service-card__desc">Точные линии и индивидуальный подход к каждой стрижке</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <i class="fas fa-razor"></i>
+                        </div>
+                        <h3 class="service-card__title">Бритьё опасной бритвой</h3>
+                        <p class="service-card__price">от 100 000 sum</p>
+                        <p class="service-card__desc">Традиционное бритьё с горячим полотенцем и уходом</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h3 class="service-card__title">Уход за бородой</h3>
+                        <p class="service-card__price">от 150 000 sum</p>
+                        <p class="service-card__desc">Коррекция формы, уходовые процедуры и укладка</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3 class="service-card__title">Комплексный уход</h3>
+                        <p class="service-card__price">от 200 000</p>
+                        <p class="service-card__desc">Полный комплекс услуг для идеального образа</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="masters" class="section masters">
+            <div class="container">
+                <h2 class="section__title">Наши барберы</h2>
+                <div class="masters__grid">
+                    <div class="master-card">
+                        <div class="master-card__image">
+                            <img src="images/p1.jpg" alt="Барбер Алекс">
+                        </div>
+                        <div class="master-card-text">
+                            <h3 class="master-card__name">Алекс</h3>
+                            <p class="master-card__exp">Опыт: 8 лет</p>
+                            <p class="master-card__desc">Специалист по современным мужским стрижкам и укладкам</p>
+                        </div>
+                    </div>
+                    <div class="master-card">
+                        <div class="master-card__image">
+                            <img src="images/p2.jpg" alt="Барбер Макс">
+                        </div>
+                        <div class="master-card-text">
+                            <h3 class="master-card__name">Максим</h3>
+                            <p class="master-card__exp">Опыт: 5 лет</p>
+                            <p class="master-card__desc">Мастер классического бритья и ухода за бородой</p>
+                        </div>
+                    </div>
+                    <div class="master-card">
+                        <div class="master-card__image">
+                            <img src="images/p3.jpg" alt="Барбер Иван">
+                        </div>
+                        <div class="master-card-text">
+                            <h3 class="master-card__name">Иван</h3>
+                            <p class="master-card__exp">Опыт: 6 лет</p>
+                            <p class="master-card__desc">Эксперт по креативным стрижкам и оформлению бороды</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section gallery">
+            <div class="container">
+                <h2 class="section__title">Наши работы</h2>
+                <div class="gallery__grid">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1520338661084-680395057c93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Работа барбершопа">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1599351431408-433ef72fe40b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="Работа барбершопа">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Работа барбершопа">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/w4.jpg" alt="Работа барбершопа">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Работа барбершопа">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/w1.jpg" alt="Работа барбершопа">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/w2.jpg" alt="Работа барбершопа">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/w3.jpg" alt="Работа барбершопа">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="section booking">
+            <div class="container">
+                <div class="booking__grid">
+                    <div class="booking__content">
+                        <h2 class="section__title">Записаться онлайн</h2>
+                        <p class="booking__text">Оставьте свои данные, и наш администратор свяжется с вами для подтверждения записи</p>
+                        <ul class="booking__features">
+                            <li><i class="fas fa-check-circle"></i> Гарантия лучшей цены</li>
+                            <li><i class="fas fa-check-circle"></i> Удобное время посещения</li>
+                            <li><i class="fas fa-check-circle"></i> Профессиональные мастера</li>
+                        </ul>
+                    </div>
+                    <form id="booking-form" class="booking-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email">
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Выберите услугу</option>
+                                <option value="haircut">Мужская стрижка</option>
+                                <option value="shaving">Бритьё опасной бритвой</option>
+                                <option value="beard">Уход за бородой</option>
+                                <option value="complex">Комплексный уход</option>
+                            </select>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="date" name="date" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--block">Записаться</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="section contacts">
+            <div class="container">
+                <h2 class="section__title">Контакты</h2>
+                <div class="contacts__grid">
+                    <div class="contacts__info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Узбекистан, Ташкент</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+998909391216"><p>+998 (90) 939 12 16</p></a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:lezenuz@gmail.com"><p>lezenuz@gmail.com</p></a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <p>Пн-Пт: 10:00 - 22:00<br>Сб-Вс: 10:00 - 20:00</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/web_lezen" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="VK"><i class="fab fa-vk"></i></a>
+                            <a href="https://t.me/web_lezen" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.3737891357366!2d37.61531071593095!3d55.75202398055309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a738fa419%3A0x7c347d506f52311f!2z0JrRgNCw0YHQvdCw0Y8g0J_RgNC10YHQvdC40LrQsA!5e0!3m2!1sru!2sru!4v1621607512214!5m2!1sru!2sru" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col">
+                    <a href="#" class="logo">Razor&<span>Craft</span></a>
+                    <p class="footer__text">Мужской барбершоп премиум-класса. Искусство мужского стиля с 2010 года.</p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__nav">
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#masters">Барберы</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Контакты</h3>
+                    <ul class="footer__contacts">
+                        <li><i class="fas fa-map-marker-alt"></i> Узбекистан, Ташкент</li>
+                        <a href="tel:+998909391216"><li><i class="fas fa-phone-alt"></i>+998 (90) 939 12 16</li></a>
+                        <a href="mailto:lezenuz@gmail.com"><li><i class="fas fa-envelope"></i>lezenuz@gmail.com</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2025 Razor&Craft. Все права защищены.</p>
+                <div class="footer__links">
+                    <a href="https://t.me/web_lezen">Политика конфиденциальности</a>
+                    <a href="https://t.me/web_lezen">Условия использования</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="success-modal" class="modal">
+        <div class="modal__content">
+            <span class="modal__close">&times;</span>
+            <i class="fas fa-check-circle modal__icon"></i>
+            <h3 class="modal__title">Спасибо за заявку!</h3>
+            <p class="modal__text">Наш администратор свяжется с вами в ближайшее время для подтверждения записи.</p>
+            <button class="btn btn--primary modal__btn">Хорошо</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
